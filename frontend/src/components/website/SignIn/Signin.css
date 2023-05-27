@@ -1,0 +1,17 @@
+.border_red {
+  border: 2px solid red;
+}
+.border_round{
+    border-radius: 20px;
+}
+.red {
+  color: red;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
