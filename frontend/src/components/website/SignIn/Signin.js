@@ -6,9 +6,12 @@ import "./Signin.css";
 const SigninSchema = Yup.object().shape({
   email: Yup.string().email("Invalid email").required("Required"),
   password: Yup.string()
-    .min(2, "Too Short!")
-    .max(50, "Too Long!")
-    .required("Required"),
+    .required("Password is required")
+    .min(8, "Password must be at least 8 characters long")
+    .matches(
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$/,
+      "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character"
+    ),
 });
 
 const Signin = () => {
@@ -18,7 +21,7 @@ const Signin = () => {
         <div className="container  w-50 bg-light ">
           {/* <div className="row">Logo Here</div> */}
           <div>
-            <img src="logo.png" alt=""/>
+            <img src="logo.png" alt="" />
           </div>
           <div className="row">
             <div className="container bg-success text-white mb-3 p-3">
