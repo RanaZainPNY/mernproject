@@ -20,9 +20,9 @@ const Signin = () => {
       <div className="container-fluid  bg-dark vh-100 d-flex justify-content-center align-items-center">
         <div className="container  w-50 bg-light ">
           {/* <div className="row">Logo Here</div> */}
-          <div>
+          {/* <div>
             <img src="logo.png" alt="" />
-          </div>
+          </div> */}
           <div className="row">
             <div className="container bg-success text-white mb-3 p-3">
               <h1 className="text-center">Log In</h1>
