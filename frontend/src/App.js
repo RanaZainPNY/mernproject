@@ -1,17 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-import Carousel from './components/website/carousel/carousel'
-import Signup from './components/website/Signup/Signup';
-import Signin from './components/website/SignIn/Signin';
+import "./App.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Routes,
+} from "react-router-dom";
+import Header from "./common/header/Header";
+import Pages from "./pages/Pages";
 
 function App() {
   return (
-    <div>
-      <Signin/>      
-      <hr />
-      <Carousel/>
-      <Signup/>
-    </div>
+    <>
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/" exact>
+            <Pages />
+          </Route>
+        </Switch>
+      </Router>
+    </>
   );
 }
 
