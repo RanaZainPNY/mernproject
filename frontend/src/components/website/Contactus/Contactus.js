@@ -14,8 +14,8 @@ const ContactUs = () => {
 
   return (
     <div className="container">
-        <div className="row">
-            <h1>Contact Us </h1>
+        <div className="row text-center mt-3 ">
+            <h1>Get In Touch with Us </h1>
         </div>
       <div className="row " style={{ marginTop: "50px" }}>
         <div className="col-md-7 py-3 d-flex justify-content-center">
