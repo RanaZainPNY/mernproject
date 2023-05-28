@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <>
       <section className="">
-        <div className="">
-          <Categories /> 
+        <div >
+          {/* <Categories />  */}
           <SlideCard />
         </div>
       </section>

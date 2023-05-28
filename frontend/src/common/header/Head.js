@@ -7,15 +7,15 @@ const Head = () => {
         className="container-fluid text-white"
         style={{ backgroundColor: "#0f3460" }}
       >
-        <div className="row py-4">
+        <div className="row py-3">
           <div className="col-md-6">
             <div className="row ">
-              <div className="col-3 ">
+              <div className="col-4 ">
                 <span>
                   <i className="fa fa-phone"></i> +92 3098038720
                 </span>
               </div>
-              <div className="col-3">
+              <div className="col-4">
                 <span>
                   <i className="fa fa-phone"></i> +92 3098038720
                 </span>
