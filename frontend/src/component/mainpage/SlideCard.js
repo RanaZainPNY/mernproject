@@ -8,9 +8,13 @@ const SlideCard = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    appendDots: (dots) => {
+      return <ul style={{ margin: "0px" }}>{dots}</ul>;
+    },
   };
 
   return (
@@ -19,13 +23,16 @@ const SlideCard = () => {
         {Sdata.map((value, index) => {
           return (
             <>
-              <div className="box d_flex top" key={index}>
-                <div className="left">
+              <div
+                className="box d-flex justify-content-center align-items-center top"
+                key={index}
+              >
+                <div className="left p-5">
                   <h1>{value.title}</h1>
                   <p>{value.desc}</p>
                   <button className="btn-primary">Visit Collections</button>
                 </div>
-                <div className="right">
+                <div className="right me-5">
                   <img src={value.cover} alt="" />
                 </div>
               </div>

@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <section className="">
         <div className="">
-          <Categories /> 
+          {/* <Categories />  */}
           <SlideCard />
         </div>
       </section>
