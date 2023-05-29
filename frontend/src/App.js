@@ -1,24 +1,21 @@
 import "./App.css";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter,Router,Route } from "react-router-dom/cjs/react-router-dom.min";
 import Header from "./common/header/Header";
 import Pages from "./pages/Pages";
+import Home from "./component/mainpage/Home";
 
 function App() {
   return (
     <>
+    <BrowserRouter>
       <Router>
         <Header />
-        <Switch>
-          <Route path="/" exact>
-            <Pages />
-          </Route>
-        </Switch>
+        
+          <Route path="/" exact Component={Home}/>
+          
+      
       </Router>
+      </BrowserRouter>
     </>
   );
 }
