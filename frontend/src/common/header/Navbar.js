@@ -7,15 +7,15 @@ const Navbar = () => {
   return (
     <>
       <header className="header">
-        <div className="container d_flex">
-          <div className="catgrories d_flex">
-            {/* <span class='fa-solid fa-border-all'></span> */}
-            {/* <h4>
-              Categories <i className='fa fa-chevron-down'></i>
-            </h4> */}
-          </div>
+        <div className="container d-flex justify-content-end">
+          {/* <div className="catgrories d_flex">
+            <span class="fa-solid fa-border-all"></span>
+            <h4>
+              Categories <i className="fa fa-chevron-down"></i>
+            </h4>
+          </div> */}
 
-          <div className="navlink">
+          <div className="navlink ">
             <ul
               className={
                 MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"
@@ -25,32 +25,30 @@ const Navbar = () => {
               {/*<ul className='link f_flex uppercase {MobileMenu ? "nav-links-MobileMenu" : "nav-links"} onClick={() => setMobileMenu(false)}'>*/}
               <li>
                 <Link to="/">
-                  <span className="fs-4">home</span>
+                  <span className="fs-4">home</span>{" "}
                 </Link>
               </li>
               <li>
-                <Link to="/shop">
-                  <span className="fs-4">pages</span>
+                <Link to="/pages">
+                  <span className="fs-4">about</span>
                 </Link>
               </li>
               <li>
                 <Link to="/user">
-                  <span className="fs-4">user account</span>
+                  <span className="fs-4">shop</span>
                 </Link>
               </li>
               <li>
                 <Link to="/vendor">
-                  <span className="fs-4">vendor account</span>
+                  <span className="fs-4">contact us</span>
                 </Link>
               </li>
-              <li>
-                <Link to="/track">
-                  <span className="fs-4">track my order</span>
-                </Link>
-              </li>
+              {/* <li>
+                <Link to='/track'>track my order</Link>
+              </li> */}
               <li>
                 <Link to="/contact">
-                  <span className="fs-4">contact</span>
+                  <span className="fs-4">sig-in</span>
                 </Link>
               </li>
             </ul>
