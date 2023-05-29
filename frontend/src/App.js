@@ -7,6 +7,7 @@ import {
 import Header from "./common/header/Header";
 import Pages from "./pages/Pages";
 import ContactUs from "./components/website/Contactus/Contactus";
+import Signin from "./components/website/SignIn/Signin";
 
 function App() {
   
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/contact" exact>
             <ContactUs/>
+          </Route>
+          <Route path="/signin" exact>
+            <Signin/>
           </Route>
         </Switch>
       </Router>

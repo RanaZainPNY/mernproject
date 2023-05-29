@@ -39,7 +39,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/vendor">
+                <Link to="/contact">
                   <span className="fs-4">contact us</span>
                 </Link>
               </li>
@@ -47,13 +47,13 @@ const Navbar = () => {
                 <Link to='/track'>track my order</Link>
               </li> */}
               <li>
-                <Link to="/contact">
+                <Link to="/signin">
                   <span className="fs-4">sig-in</span>
                 </Link>
               </li>
             </ul>
 
-            <button
+            {/* <button
               className="toggle"
               onClick={() => setMobileMenu(!MobileMenu)}
             >
@@ -62,7 +62,8 @@ const Navbar = () => {
               ) : (
                 <i className="fa fa-bars open"></i>
               )}
-            </button>
+            </button> */}
+            
           </div>
         </div>
       </header>

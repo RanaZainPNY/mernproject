@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from "../../component/assets/images/logo.svg"
+// import logo from "../../component/assets/images/logo.svg"
+import logo from "../../component/assets/images/logo.png"
 import { Link } from "react-router-dom"
 
 const Search = ({ CartItem }) => {
@@ -14,8 +15,8 @@ const Search = ({ CartItem }) => {
       <>
       <section className='search'>
         <div className='container c_flex'>
-          <div className='logo width '>
-            <img src={logo} alt='' />
+          <div >
+            <img src={logo} alt='Brand Logo' style={{ width: "150px", height: "150px" }}/>            
           </div>
 
           <div className='search-box f_flex'>

@@ -13,13 +13,11 @@
 }
 /*------head-----------*/
 /*------search-----------*/
-.search {
-  padding: 20px 0;
-}
-.search .logo img {
+
+/* .search .logo img {
   width: auto;
   height: auto;
-}
+} */
 .search .width {
   width: 20%;
 }
