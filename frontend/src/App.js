@@ -9,7 +9,6 @@ import Header from "./common/header/Header";
 import Pages from "./pages/Pages";
 
 function App() {
-  
   return (
     <>
       <Router>
