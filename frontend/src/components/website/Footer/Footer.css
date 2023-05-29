@@ -1,0 +1,18 @@
+.bg-dark-blue{
+    background-color: #0b2442;
+}
+.circle{
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.circle:hover{
+    /* background-color: mediumspringgreen; */
+    background-color: #DC3545;
+    /* color: blue; */
+}
+
+.fs-s{
+    font-size: 12px;
+}

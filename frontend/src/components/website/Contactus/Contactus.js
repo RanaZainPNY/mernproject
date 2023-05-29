@@ -27,6 +27,7 @@ const ContactUs = () => {
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            title="datics ai"
           ></iframe>
         </div>
         <div className="col-md-5 ">

@@ -14,8 +14,7 @@ const Navbar = () => {
               Categories <i className="fa fa-chevron-down"></i>
             </h4>
           </div> */}
-
-          <div className="navlink ">
+          <div className="navlink">
             <ul
               className={
                 MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"
@@ -48,7 +47,7 @@ const Navbar = () => {
               </li> */}
               <li>
                 <Link to="/signin">
-                  <span className="fs-4">sig-in</span>
+                  <span className="fs-4">sign-in</span>
                 </Link>
               </li>
             </ul>
@@ -63,7 +62,7 @@ const Navbar = () => {
                 <i className="fa fa-bars open"></i>
               )}
             </button> */}
-            
+
           </div>
         </div>
       </header>

@@ -8,6 +8,7 @@ import Header from "./common/header/Header";
 import Pages from "./pages/Pages";
 import ContactUs from "./components/website/Contactus/Contactus";
 import Signin from "./components/website/SignIn/Signin";
+import Footer from "./components/website/Footer/Footer";
 
 function App() {
   
@@ -26,6 +27,7 @@ function App() {
             <Signin/>
           </Route>
         </Switch>
+        <Footer/>
       </Router>
     </>
   );
