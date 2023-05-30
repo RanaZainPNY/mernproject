@@ -1,0 +1,73 @@
+.wrapper {
+    min-height: calc(100vh - 5rem); /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh - 5rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Style For The Form */
+  #root.container #login.card {
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius:.3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  #root.card h1 {
+    color:#333;
+    background-color: white;
+    padding:.75em.5em.25em.5em ;
+    border-radius:.3rem.3rem 0 0;
+  }
+  #root.card label {
+    float: left;
+    clear: both;
+    width: 100%;
+    color: gray;
+    text-align:left;
+    font-weight: bold;
+    letter-spacing:.1em;
+    padding-top:.75em;
+  }
+  #root.card.inputBox {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.5em;
+  }
+  #root.card.inputBox input[type="text"],.inputBox input[type="tel"],.inputBox input[type="email"],.inputBox input[type="number"],.inputBox textarea,.inputBox select {
+    height: 3em;
+    line-height: 3em;
+    outline: none;
+    width: 100%;
+    padding-left:.75em;
+    box-sizing:border-box;
+    transition: all.3s ease;
+    border-radius:.3rem;
+    border: solid.0625em lightgray;
+  }
+  #root.card.inputBox.bar {
+    position: absolute;
+    bottom:.625em;
+    left:.75em; right:.75em;
+    opacity:.5;
+  }
+  #root.card.forgotPwd {
+    float:right;
+    font-size:.8em;
+    padding-top:.5em;
+    cursor:pointer;
+  }
+  #root button[type="button"] {
+    width: 100%;
+    padding:.75em;
+    background-image: linear-gradient(#FDC830, #fbbc05);
+    border:none;
+    border-radius:.3rem;
+    color:white;
+    cursor: pointer;
+    transition:all.3s ease;
+  }
+  #root button[type="button"]:hover {
+    transform: scale(.98);
+  }
