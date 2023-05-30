@@ -7,10 +7,8 @@
     height: 40px;
     border-radius: 50%;
 }
-.circle:hover{
-    /* background-color: mediumspringgreen; */
-    background-color: #DC3545;
-    /* color: blue; */
+.circle:hover{    
+    background-color: #DC3545;    
 }
 
 .fs-s{
