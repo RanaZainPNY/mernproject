@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Head = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const Head = () => {
               </div>
               <div className="col-4">
                 <span>
-                  <i className="fa fa-phone"></i> +92 3098038720
+                  <i className="fa fa-phone"></i>+92 3098038720
                 </span>
               </div>
             </div>

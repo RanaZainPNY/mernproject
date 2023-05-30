@@ -7,6 +7,7 @@ import ContactUs from "./components/website/Contactus/Contactus";
 import Signin from "./components/website/SignIn/Signin";
 import Footer from "./components/website/Footer/Footer";
 import About from "./components/website/About/About";
+import Shope from "./components/website/Shopes/Shope";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Pages />}></Route>
+          <Route path="/shope" element={< Shope />}></Route>
           <Route path="/contact" element={<ContactUs />}></Route>
           <Route path="/signin" element={<Signin />}></Route>
           <Route path="/about" element={<About/>}></Route>

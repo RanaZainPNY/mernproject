@@ -33,8 +33,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/shop">
-                  <span className="fs-4">shop</span>
+                <Link to="/shope">
+                  <span className="fs-4">Shope</span>
                 </Link>
               </li>
               <li>
@@ -47,7 +47,7 @@ const Navbar = () => {
               </li> */}
               <li>
                 <Link to="/signin">
-                  <span className="fs-4">sig-in</span>
+                  <span className="fs-4">sign-in</span>
                 </Link>
               </li>
             </ul>
