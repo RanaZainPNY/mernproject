@@ -46,7 +46,7 @@ const Navbar = () => {
                 <Link to='/track'>track my order</Link>
               </li> */}
               <li>
-                <Link to="/sigin">
+                <Link to="/signin">
                   <span className="fs-4">sig-in</span>
                 </Link>
               </li>

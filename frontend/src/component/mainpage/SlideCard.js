@@ -33,7 +33,7 @@ const SlideCard = () => {
                   <button className="btn-primary"> Visit Collections </button>
                 </div>
                 <div className="right me-5">
-                  <img src={value.cover} alt="" />
+                  <img src={value.cover} alt="" style={{ width: "300px", height: "300px" }} />
                 </div>
               </div>
             </>
