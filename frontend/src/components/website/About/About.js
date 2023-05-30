@@ -8,7 +8,7 @@ export default function About() {
       {/* <TopBarBox />
       <Carosuel /> */}
       <Container style={{ marginTop: "50px" }}>
-      <h1 style={{ color: "darkblue" }}>About AntiqueHub</h1>
+        <h1 style={{ color: "darkblue" }}>About AntiqueHub</h1>
         Welcome to [Your Antique Store's Name], where we specialize in curating
         and showcasing exquisite antique pieces from different eras and
         cultures. With our passion for history and an eye for timeless beauty,
@@ -36,19 +36,26 @@ export default function About() {
         the past and find something truly special at [Your Antique Store's
         Name]. Feel free to customize this content to fit your antique store's
         unique offerings and brand voice. Good luck with your website!
-        
         <h1 style={{ marginTop: "50px" }}>
           {/* <b>Talented Crew:</b> */}
-          <b style={{ border: "1px solid black", borderRadius: "0 50% 50% 0", padding: "5px 10px", display: "inline-block", color: "darkblue" }}>Talented Crew</b>
-
+          <b
+            style={{
+              border: "1px solid black",
+              borderRadius: "0 50% 50% 0",
+              padding: "5px 10px",
+              display: "inline-block",
+              color: "darkblue",
+            }}
+          >
+            Talented Crew
+          </b>
         </h1>
-
         <Row style={{ marginTop: "50px" }}>
           <Col md={4}>
-            <Card  style={{border: '0'}}>
+            <Card style={{ border: "0" }}>
               <Card.Img
                 variant="top"
-                style={{ maxHeight: "380px", borderRadius: "50%"}}
+                style={{ maxHeight: "380px", borderRadius: "50%" }}
                 src="myimage.jpg"
               />
               {/* <Card.Body>
@@ -88,13 +95,12 @@ export default function About() {
             perspective is the wild roller
           </Col>
         </Row>
-
         <Row style={{ marginTop: "50px" }}>
           <Col md={4}>
-            <Card style={{border: "0"}}>
+            <Card style={{ border: "0" }}>
               <Card.Img
                 variant="top"
-                style={{ maxHeight: "380px",borderRadius: "50%" }}
+                style={{ maxHeight: "380px", borderRadius: "50%" }}
                 src="zainimage.jpeg"
               />
               {/* <Card.Body>
@@ -131,10 +137,9 @@ export default function About() {
             wild roller
           </Col>
         </Row>
-
         <Row style={{ marginTop: "50px" }}>
           <Col md={4}>
-            <Card styel={{border: "0"}}>
+            <Card styel={{ border: "0" }}>
               <Card.Img
                 variant="top"
                 style={{ maxHeight: "380px", borderRadius: "50%" }}
@@ -174,10 +179,9 @@ export default function About() {
             wild roller
           </Col>
         </Row>
-
         <Row style={{ marginTop: "50px" }}>
           <Col md={4}>
-            <Card style={{border: "0"}}>
+            <Card style={{ border: "0" }}>
               <Card.Img
                 variant="top"
                 style={{ maxHeight: "380px", borderRadius: "50%" }}
@@ -217,10 +221,9 @@ export default function About() {
             wild roller
           </Col>
         </Row>
-
         <Row style={{ marginTop: "50px" }}>
           <Col md={4}>
-            <Card style={{border: "0"}}>
+            <Card style={{ border: "0" }}>
               <Card.Img
                 variant="top"
                 style={{ maxHeight: "380px", borderRadius: "50%" }}
@@ -264,8 +267,7 @@ export default function About() {
             perspective is the wild roller
           </Col>
         </Row>
-
-        <h1 style={{marginTop: '50px'}}>Explanation</h1>
+        {/* <h1 style={{marginTop: '50px'}}>Explanation</h1>
         <Row>
           <Col md={3}>
           "Our Experts" showcases the knowledgeable individuals who form the
@@ -308,7 +310,7 @@ export default function About() {
             antiques, employing specialized techniques and methods to protect
             and restore them.
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </>
   );
