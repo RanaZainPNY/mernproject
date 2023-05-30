@@ -11,9 +11,9 @@ import Signin from "./components/website/SignIn/Signin";
 import Footer from "./components/website/Footer/Footer";
 
 function App() {
-  
   return (
     <>
+    <BrowserRouter>
       <Router>
         <Header />
         <Switch>
@@ -29,6 +29,7 @@ function App() {
         </Switch>
         <Footer/>
       </Router>
+      </BrowserRouter>
     </>
   );
 }

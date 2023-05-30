@@ -28,12 +28,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/pages">
+                <Link to="/about">
                   <span className="fs-4">about</span>
                 </Link>
               </li>
               <li>
-                <Link to="/user">
+                <Link to="/shop">
                   <span className="fs-4">shop</span>
                 </Link>
               </li>
@@ -46,8 +46,8 @@ const Navbar = () => {
                 <Link to='/track'>track my order</Link>
               </li> */}
               <li>
-                <Link to="/signin">
-                  <span className="fs-4">sign-in</span>
+                <Link to="/sigin">
+                  <span className="fs-4">sig-in</span>
                 </Link>
               </li>
             </ul>
