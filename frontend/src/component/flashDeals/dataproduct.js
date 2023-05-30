@@ -2,12 +2,12 @@ export const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 1024 },
-    items: 5,
+    items: 3,
     slidesToSlide: 2,
   },
   desktop: {
     breakpoint: { max: 1024, min: 800 },
-    items: 4,
+    items: 3,
   },
   tablet: {
     breakpoint: { max: 800, min: 464 },
@@ -24,39 +24,39 @@ export const productData = [
     id: 1,
     imageurl:
       "https://antiquearmor.com/wp-content/uploads/2023/05/436-4-2.jpg",
-    name: "Colorful sneakers",
-    price: "$19.99",
+    name: "MEDIEVAL ARMS ",
+    price: "$199.99",
     description: "Some text about the product..",
   },
   {
     id: 2,
     imageurl:
       "https://antiquearmor.com/wp-content/uploads/2023/05/736-3.jpg",
-    name: "Sport sneakers",
-    price: "$21.99",
+    name: "Oakeshott Sword family",
+    price: "$211.99",
     description: "Some text about the product..",
   },
   {
     id: 3,
     imageurl:
       "https://antiquearmor.com/wp-content/uploads/2023/05/IMG_2132-Large.jpg",
-    name: "iWatch",
-    price: "$99.99",
+    name: "ITALIAN RAPIER CIRCA",
+    price: "$399.99",
     description: "Some text about the product..",
   },
   {
     id: 4,
     imageurl:
       "https://antiquearmor.com/wp-content/uploads/2023/05/495.png",
-    name: "Water Bottle",
-    price: "$14.99",
+    name: "Rare Basket-Hilted Backsword Circa",
+    price: "$144.99",
     description: "Some text about the product..",
   },
   {
     id: 5,
     imageurl:
       "https://antiquearmor.com/wp-content/uploads/2023/05/872.png",
-    name: "Vans sneakers",
+    name: "TRI BAR FACEGUARD ZISCHAGGE",
     price: "$38.99",
     description: "Some text about the product..",
   },
@@ -64,7 +64,7 @@ export const productData = [
     id: 6,
     imageurl:
       "https://antiquearmor.com/wp-content/uploads/2023/05/847-2.jpg",
-    name: "Coco Noir",
+    name: "HISTORISMUS ARMOR",
     price: "$149.99",
     description: "Some text about the product..",
   },
@@ -72,7 +72,7 @@ export const productData = [
     id: 7,
     imageurl:
       "https://antiquearmor.com/wp-content/uploads/2023/05/1014-8.jpg",
-    name: "Sunglasses",
+    name: "ELEGANT CURASSIER ARMOR",
     price: "$38.99",
     description: "Some text about the product..",
   },
@@ -80,7 +80,7 @@ export const productData = [
     id: 8,
     imageurl:
       "https://antiquearmor.com/wp-content/uploads/1970/01/1524.jpg",
-    name: "Dove cream",
+    name: "CUP HILT RAPIER CIRCA",
     price: "$49.99",
     description: "Some text about the product..",
   },
