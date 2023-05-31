@@ -8,24 +8,37 @@ const Carousel = () => {
         class="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
+        <div class="carousel-inner" style={{ height: "500px" }}>
           <div class="carousel-item active">
             <img
-              src="https://mlmzztreenbr.i.optimole.com/w:auto/h:auto/q:mauto/f:avif/https://jeanmarcfray.com/wp-content/uploads/2023/05/image_6.jpg"
+              // src="https://mlmzztreenbr.i.optimole.com/w:auto/h:auto/q:mauto/f:avif/https://jeanmarcfray.com/wp-content/uploads/2023/05/image_6.jpg"
+              src="images/carousel/vintage-01.png"
+              class="d-block w-100"
+              alt="No Image"              
+              />
+          </div>
+          <div class="carousel-item">
+            <img
+              // src="https://mlmzztreenbr.i.optimole.com/w:auto/h:auto/q:mauto/f:avif/https://jeanmarcfray.com/wp-content/uploads/2023/05/image_1.jpg"
+              src="images/carousel/vintage-02.png"              
               class="d-block w-100"
               alt="No Image"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://mlmzztreenbr.i.optimole.com/w:auto/h:auto/q:mauto/f:avif/https://jeanmarcfray.com/wp-content/uploads/2023/05/image_1.jpg"
+              // src="https://mlmzztreenbr.i.optimole.com/w:auto/h:auto/q:mauto/f:avif/https://jeanmarcfray.com/wp-content/uploads/2023/05/image_2.jpg"
+              src="images/carousel/deskTop-2560x1600_c.jpg"              
+              // src="https://mlmzztreenbr.i.optimole.com/w:auto/h:auto/q:mauto/f:avif/https://jeanmarcfray.com/wp-content/uploads/2023/05/image_2.jpg"
               class="d-block w-100"
               alt="No Image"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://mlmzztreenbr.i.optimole.com/w:auto/h:auto/q:mauto/f:avif/https://jeanmarcfray.com/wp-content/uploads/2023/05/image_2.jpg"
+              // src="https://mlmzztreenbr.i.optimole.com/w:auto/h:auto/q:mauto/f:avif/https://jeanmarcfray.com/wp-content/uploads/2023/05/image_2.jpg"
+              src="images/carousel/deskTop-2560x1600_c.jpg"              
+              // src="https://mlmzztreenbr.i.optimole.com/w:auto/h:auto/q:mauto/f:avif/https://jeanmarcfray.com/wp-content/uploads/2023/05/image_2.jpg"
               class="d-block w-100"
               alt="No Image"
             />

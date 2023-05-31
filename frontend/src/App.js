@@ -7,12 +7,14 @@ import ContactUs from "./components/website/Contactus/Contactus";
 import Signin from "./components/website/SignIn/Signin";
 import Footer from "./components/website/Footer/Footer";
 import About from "./components/website/About/About";
+import Carousel from './components/website/carousel/carousel'
 
 function App() {
   return (
     <>
       <Router>
         <Header />
+        {/* <Carousel/> */}
         <Routes>
           <Route path="/" element={<Pages />}></Route>
           <Route path="/contact" element={<ContactUs />}></Route>
