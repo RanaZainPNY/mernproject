@@ -17,6 +17,7 @@ function App() {
         {/* <Carousel/> */}
         <Routes>
           <Route path="/" element={<Pages />}></Route>
+          <Route path="/shope" element={< Shope />}></Route>
           <Route path="/contact" element={<ContactUs />}></Route>
           <Route path="/signin" element={<Signin />}></Route>
           <Route path="/about" element={<About/>}></Route>
