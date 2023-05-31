@@ -29,6 +29,7 @@ const Search = ({ CartItem }) => {
                 />
               </div>
             </div>
+            
             <div className="col-md-8">              
                 <nav
                   className="navbar d-flex justify-content-center py-3"
@@ -73,13 +74,14 @@ const Search = ({ CartItem }) => {
                   </div>
                 </nav>                              
             </div>
+
             <div className="col-md-2">
               <div className="icon f_flex width">
-                <i className="fa fa-user icon-circle"></i>
+                {/* <i className="fa fa-user icon-circle"></i> */}
                 <div className="cart">
                   <Link to="/cart">
                     <i className="fa fa-shopping-bag icon-circle"></i>
-                    <span>0</span>
+                    {/* <span>0</span> */}
                   </Link>
                 </div>
               </div>
