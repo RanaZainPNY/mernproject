@@ -3,9 +3,11 @@ const mongoose = require("mongoose");
 const express = require("express");
 const app = express();
 const port = 5000;
+const userRouter = require("./controllers/user.controller");
 
 // Database Connectivity
-conectionString = "mongodb://127.0.0.1:27017/Antiques";
+// conectionString = "mongodb://127.0.0.1:27017/Antiques";
+conectionString = "mongodb+srv://mongo:mongo@cluster0.xrwpv5u.mongodb.net/Antiques";
 try{
     mongoose
     .connect(conectionString)
@@ -24,6 +26,6 @@ app.get("/", (req, res) => {
 
 
 // towards controller
-// app.use("/user", userRouter);
+app.use("/user", userRouter);
 
 app.listen(port, () => console.log(`Server is running on Port: ${port}`));
