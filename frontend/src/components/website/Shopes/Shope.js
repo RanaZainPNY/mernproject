@@ -12,7 +12,7 @@ function Shope() {
 
   return (
     <>
-      <Container style={{marginTop: '50px'}}> 
+      <Container style={{ marginTop: "50px" }}>
         <Row>
           <Col md={4}>
             <Card>
@@ -68,12 +68,10 @@ function Shope() {
               </Card.Footer>
             </Card>
           </Col>
-
         </Row>
       </Container>
-
-{/* 2nd group */}
-<Container style={{marginTop: '50px'}}> 
+      {/* 2nd group */}
+      <Container style={{ marginTop: "50px" }}>
         <Row>
           <Col md={4}>
             <Card>
@@ -129,11 +127,10 @@ function Shope() {
               </Card.Footer>
             </Card>
           </Col>
-
         </Row>
       </Container>
       {/* 3RD GROUP */}
-      <Container style={{marginTop: '50px'}}> 
+      <Container style={{ marginTop: "50px" }}>
         <Row>
           <Col md={4}>
             <Card>
@@ -189,11 +186,8 @@ function Shope() {
               </Card.Footer>
             </Card>
           </Col>
-
         </Row>
       </Container>
-
-
     </>
   );
 }

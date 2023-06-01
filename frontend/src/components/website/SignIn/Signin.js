@@ -18,7 +18,7 @@ import "./Signin.css";
 const Signin = () => {
   return (
     <>
-      <div className="main">
+      <div className="main" style={{ backgroundImage: "url('images/carousel/wall.jpg')", backgroundSize: "cover"}}>
         <div className="sub-main">
           <div>
                 <div className="image">
@@ -28,7 +28,7 @@ const Signin = () => {
                 </div>
 
                 <div>
-                  <h1>Login page</h1>
+                  <h1>Login</h1>
                   <div className="email-section">
                     <img src="email.png" alt="email" className="email"/>
                     <input  className="loginpage" type="text" placeholder="email"/>
@@ -38,7 +38,7 @@ const Signin = () => {
                     <input className="loginpage" type="password" placeholder="password"/>
                   </div>
                   <div className="login-button">
-                  <button style={{borderRadius: "60px"}}>login</button>
+                  <button style={{borderRadius: "60px",fontWeight:"bold"}}>Login</button>
                   </div>
                   <div>
                     <p className="link">

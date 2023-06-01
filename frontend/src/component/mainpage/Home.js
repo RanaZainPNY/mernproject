@@ -1,6 +1,7 @@
 import React from "react";
 // import Categories from "./Categories";
 // import "./Home.css";
+import Carousel from "../../components/website/carousel/carousel";
 
 import SlideCard from "./SlideCard";
 
@@ -9,8 +10,9 @@ const Home = () => {
     <>
       <section className="">
         <div className="">
+        <Carousel/>
           {/* <Categories />  */}
-          <SlideCard />
+          {/* <SlideCard /> */}
         </div>
       </section>
     </>

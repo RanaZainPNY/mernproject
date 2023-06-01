@@ -7,19 +7,25 @@ import ContactUs from "./components/website/Contactus/Contactus";
 import Signin from "./components/website/SignIn/Signin";
 import Footer from "./components/website/Footer/Footer";
 import About from "./components/website/About/About";
-import Shope from "./components/website/Shopes/Shope";
+// import Carousel from './components/website/carousel/carousel'
+import LimitedEditionPlates from "./components/website/categoriespag/LimitedEditionPlates";
+import Home from "./components/admin/Home/Home";
+
 
 function App() {
   return (
     <>
-      <Router>
+      <Router>        
         <Header />
+        {/* <Carousel/> */}
         <Routes>
           <Route path="/" element={<Pages />}></Route>
-          <Route path="/shope" element={< Shope />}></Route>
+          <Route path="/home" element={< Pages />}></Route>
+          <Route path="/shop" element={< LimitedEditionPlates />}></Route>
           <Route path="/contact" element={<ContactUs />}></Route>
           <Route path="/signin" element={<Signin />}></Route>
           <Route path="/about" element={<About/>}></Route>
+          <Route path="/admin" element={<Home/>}></Route>
         </Routes>
         <Footer />
       </Router>

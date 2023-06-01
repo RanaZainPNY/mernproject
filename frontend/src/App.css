@@ -200,6 +200,7 @@ button {
   height: 50px;
   line-height: 60px;
   background: #0f3460;
+  /* border: 2px solid red; */
   border-radius: 50%;
   transform: 0.5s;
   z-index: 5;
@@ -219,6 +220,7 @@ button {
 .control-btn .prev:hover,
 .control-btn .next:hover {
   background: #e94560;
+  /* border: 2px solid red;  */
   color: white;
   cursor: pointer;
 }
