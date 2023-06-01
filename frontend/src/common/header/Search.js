@@ -3,7 +3,6 @@ import logo from "../../component/assets/images/logo.png";
 import { Link } from "react-router-dom";
 
 const Search = ({ CartItem }) => {
-  
   window.addEventListener("scroll", function () {
     const search = document.querySelector(".search");
     search.classList.toggle("active", window.scrollY > 100);
@@ -29,50 +28,51 @@ const Search = ({ CartItem }) => {
                 />
               </div>
             </div>
-            
-            <div className="col-md-8">              
-                <nav
-                  className="navbar d-flex justify-content-center py-3"
-                  style={{ backgroundColor: "#B28A5E", borderRadius: "60px" }}
-                >
-                  <div className="navbar-container ">
-                    <button
-                      className={`navbar-toggle ${isOpen ? "open" : ""}`}
-                      onClick={toggleNavbar}
-                    >
-                      <span className="bar"></span>
-                      <span className="bar"></span>
-                      <span className="bar"></span>
-                    </button>
-                    <ul className={`navbar-menu ${isOpen ? "open" : ""}`}>
-                      <li className="navbar-item">
-                        <Link to="/home" className="navbar-link">
-                          Home
-                        </Link>
-                      </li>
-                      <li className="navbar-item">
-                        <Link to="/About" className="navbar-link">
-                          About
-                        </Link>
-                      </li>
-                      <li className="navbar-item">
-                        <Link to="/Categories" className="navbar-link">
-                          Categories
-                        </Link>
-                      </li>
-                      <li className="navbar-item">
-                        <Link to="/Shop" className="navbar-link">
-                          Shop
-                        </Link>
-                      </li>
-                      <li className="navbar-item">
-                        <Link to="/Contact" className="navbar-link">
-                          Contact Us
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>                              
+
+            <div className="col-md-8">
+              <nav
+                className="navbar d-flex justify-content-center py-3"
+                style={{ backgroundColor: "#B28A5E", borderRadius: "60px" }}
+              >
+                <div className="navbar-container ">
+                  <button
+                    className={`navbar-toggle ${isOpen ? "open" : ""}`}
+                    onClick={toggleNavbar}
+                  >
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                  </button>
+                  <ul className={`navbar-menu ${isOpen ? "open" : ""}`}>
+                    <li className="navbar-item">
+                      <Link to="/home" className="navbar-link">
+                        Home
+                      </Link>
+                    </li>
+                    <li className="navbar-item">
+                      <Link to="/About" className="navbar-link">
+                        About
+                      </Link>
+                    </li>
+
+                    <li className="navbar-item">
+                      <Link to="/Shop" className="navbar-link">
+                        Shop
+                      </Link>
+                    </li>
+                    <li className="navbar-item">
+                      <Link to="/Contact" className="navbar-link">
+                        Contact Us
+                      </Link>
+                    </li>
+                    <li className="navbar-item">
+                      <Link to="/admin" className="navbar-link">
+                        Admin
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
             </div>
 
             <div className="col-md-2">
