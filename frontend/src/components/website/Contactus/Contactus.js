@@ -38,6 +38,8 @@ const ContactUs = () => {
               <div className="form-group">
                 <label htmlFor="name">Name:</label>
                 <input
+                style={{borderRadius: "60px"}}
+                placeholder="name"
                   type="text"
                   id="name"
                   value={name}
@@ -48,6 +50,8 @@ const ContactUs = () => {
               <div className="form-group">
                 <label htmlFor="email">Email:</label>
                 <input
+                style={{borderRadius: "60px"}}
+                placeholder="email"
                   type="email"
                   id="email"
                   value={email}
@@ -58,13 +62,15 @@ const ContactUs = () => {
               <div className="form-group">
                 <label htmlFor="message">Message:</label>
                 <textarea
+                style={{borderRadius: "60px"}}
+                
                   id="message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   className="form-control"
                 ></textarea>
               </div>
-              <button type="submit" className="btn btn-primary">
+              <button style={{borderRadius: "60px", width: "350px"}} type="submit" className="btn btn-primary">
                 Submit
               </button>
             </form>
