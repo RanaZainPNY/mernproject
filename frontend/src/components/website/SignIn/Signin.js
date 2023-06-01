@@ -3,7 +3,6 @@ import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
 import "./Signin.css";
 
-
 // const SigninSchema = Yup.object().shape({
 //   email: Yup.string().email("Invalid email").required("Required"),
 //   password: Yup.string()
@@ -18,39 +17,56 @@ import "./Signin.css";
 const Signin = () => {
   return (
     <>
-      <div className="main" style={{ backgroundImage: "url('images/carousel/wall.jpg')", backgroundSize: "cover"}}>
+      <div
+        className="main"
+        style={{
+          backgroundImage: "url('images/carousel/wall.jpg')",
+          backgroundSize: "cover",
+        }}
+      >
         <div className="sub-main">
           <div>
-                <div className="image">
-                  <div className="Container-image">
-                    <img src="profile3.jpeg" alt="its image" style={{borderRadius: "50%", maxWidth: "100px", maxHeight: "200px"}}/>
-                  </div>
-                </div>
+            <div className="image">
+              <div className="Container-image">
+                <img
+                  src="profile3.jpeg"
+                  alt="its image"
+                  style={{
+                    borderRadius: "50%",
+                    maxWidth: "100px",
+                    maxHeight: "200px",
+                  }}
+                />
+              </div>
+            </div>
 
-                <div>
-                  <h1>Login</h1>
-                  <div className="email-section">
-                    <img src="email.png" alt="email" className="email"/>
-                    <input  className="loginpage" type="text" placeholder="email"/>
-                  </div>
-                  <div className="password-section">
-                    <img src="password.png" alt="password" className="password"/>
-                    <input className="loginpage" type="password" placeholder="password"/>
-                  </div>
-                  <div className="login-button">
-                  <button style={{borderRadius: "60px",fontWeight:"bold"}}>Login</button>
-                  </div>
-                  <div>
-                    <p className="link">
-                      <a href="#">forget password?</a> or <a href="#">sign up</a>
-                    </p>
-                  </div>
-                </div>
-
+            <div>
+              <h1>Login</h1>
+              <div className="email-section">
+                <img src="email.png" alt="email" className="email" />
+                <input className="loginpage" type="text" placeholder="email" />
+              </div>
+              <div className="password-section">
+                <img src="password.png" alt="password" className="password" />
+                <input
+                  className="loginpage"
+                  type="password"
+                  placeholder="password"
+                />
+              </div>
+              <div className="login-button">
+                <button style={{ borderRadius: "60px", fontWeight: "bold" }}>
+                  Login
+                </button>
+              </div>
+              <div>
+                <p className="link">
+                  <a href="#">forget password?</a> or <a href="#">sign up</a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        
-        
       </div>
     </>
   );
