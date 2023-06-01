@@ -10,6 +10,7 @@ import About from "./components/website/About/About";
 // import Carousel from './components/website/carousel/carousel'
 import LimitedEditionPlates from "./components/website/categoriespag/LimitedEditionPlates";
 import Home from "./components/admin/Home/Home";
+import Register from "./components/website/Register/Register";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/signin" element={<Signin />}></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/admin" element={<Home/>}></Route>
+          <Route path="/register" element={<Register/>}></Route>
         </Routes>
         <Footer />
       </Router>

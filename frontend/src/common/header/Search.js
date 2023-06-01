@@ -70,6 +70,7 @@ const Search = ({ CartItem }) => {
                           Contact Us
                         </Link>
                       </li>
+                      
                     </ul>
                   </div>
                 </nav>                              
