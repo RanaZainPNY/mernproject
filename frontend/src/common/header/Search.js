@@ -76,11 +76,12 @@ const Search = ({ CartItem }) => {
             </div>
 
             <div className="col-md-2">
-              <div className="icon f_flex width">
+              <div className=" ms-5 icon f_flex width">
                 {/* <i className="fa fa-user icon-circle"></i> */}
-                <div className="cart">
+                <div className="cart ">
                   <Link to="/cart">
-                    <i className="fa fa-shopping-bag icon-circle"></i>
+                    {/* <i className="fa fa-shopping-bag icon-circle"></i> */}
+                    <i className="fa fa-shopping-cart icon-circle" style={{ color: "#B28A5E" }}></i>
                     {/* <span>0</span> */}
                   </Link>
                 </div>
