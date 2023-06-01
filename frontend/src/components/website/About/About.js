@@ -7,41 +7,52 @@ export default function About() {
     <>
       {/* <TopBarBox />
       <Carosuel /> */}
-      <Container style={{ marginTop: "50px" }}>
+      <Container style={{ marginTop: "50px", marginBottom: "50px" }}>
         <h1 style={{ color: "darkblue" }}>About AntiqueHub</h1>
-        Welcome to [Your Antique Store's Name], where we specialize in curating
-        and showcasing exquisite antique pieces from different eras and
-        cultures. With our passion for history and an eye for timeless beauty,
-        we strive to bring you a unique collection of treasures that tell
-        captivating stories.
+        <p style={{ textAlign: "justify" }}>
+          Welcome to [Your Antique Store's Name], where we specialize in
+          curating and showcasing exquisite antique pieces from different eras
+          and cultures. With our passion for history and an eye for timeless
+          beauty, we strive to bring you a unique collection of treasures that
+          tell captivating stories.
+        </p>
         <h2 style={{ color: "grey" }}>Discover Timeless Elegance</h2>
-        At [Your Antique Store's Name], we believe that antiques possess an
-        unparalleled charm that modern pieces often lack. Our goal is to help
-        you discover the allure of bygone eras and the craftsmanship of artisans
-        from long ago. Whether you are a seasoned collector or a curious
-        newcomer, we invite you to delve into the past and uncover extraordinary
-        pieces that will add character and sophistication to your living spaces.
+        <p style={{ textAlign: "justify" }}>
+          At [Your Antique Store's Name], we believe that antiques possess an
+          unparalleled charm that modern pieces often lack. Our goal is to help
+          you discover the allure of bygone eras and the craftsmanship of
+          artisans from long ago. Whether you are a seasoned collector or a
+          curious newcomer, we invite you to delve into the past and uncover
+          extraordinary pieces that will add character and sophistication to
+          your living spaces.
+        </p>
         <h2 style={{ color: "grey" }}>Preservation and Legacy</h2>
-        At [Your Antique Store's Name], we believe in preserving the beauty and
-        legacy of antiques for future generations. We meticulously care for each
-        piece, ensuring its longevity while respecting its original integrity.
-        Whether you are purchasing an antique as an investment or as a cherished
-        heirloom, our commitment to quality ensures that it will continue to
-        captivate and inspire for years to come.
+
+        <p style={{ textAlign: "justify" }}>
+          At [Your Antique Store's Name], we believe in preserving the beauty
+          and legacy of antiques for future generations. We meticulously care
+          for each piece, ensuring its longevity while respecting its original
+          integrity. Whether you are purchasing an antique as an investment or
+          as a cherished heirloom, our commitment to quality ensures that it
+          will continue to captivate and inspire for years to come.
+        </p>
         <h2 style={{ color: "grey" }}>Visit Us</h2>
-        We invite you to visit our showroom and experience the magic of antique
-        treasures firsthand. Immerse yourself in an enchanting atmosphere as you
-        peruse our curated collection. Our friendly staff will be delighted to
-        assist you and share their passion for antiques. Discover the allure of
-        the past and find something truly special at [Your Antique Store's
-        Name]. Feel free to customize this content to fit your antique store's
-        unique offerings and brand voice. Good luck with your website!
+        <p style={{ textAlign: "justify" }}>        
+          We invite you to visit our showroom and experience the magic of
+          antique treasures firsthand. Immerse yourself in an enchanting
+          atmosphere as you peruse our curated collection. Our friendly staff
+          will be delighted to assist you and share their passion for antiques.
+          Discover the allure of the past and find something truly special at
+          [Your Antique Store's Name]. Feel free to customize this content to
+          fit your antique store's unique offerings and brand voice. Good luck
+          with your website!
+        </p>
         <h1 style={{ marginTop: "50px" }}>
           {/* <b>Talented Crew:</b> */}
           <b
             style={{
-              border: "1px solid black",
-              borderRadius: "0 50% 50% 0",
+              // border: "1px solid black",
+              // borderRadius: "0 50% 50% 0",
               padding: "5px 10px",
               display: "inline-block",
               color: "darkblue",
@@ -58,41 +69,34 @@ export default function About() {
                 style={{ maxHeight: "380px", borderRadius: "50%" }}
                 src="myimage.jpg"
               />
-              {/* <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer> */}
             </Card>
           </Col>
           <Col md={8}>
             <h1>Farhan Malik</h1>
             "-------<b>Thank you for taking the time to view my site. </b>
-            Welcome to a kingdom of animals, real, ancient and imagined: a
-            kingdom ruled by lions, dinosaurs and dragons; a kingdom of balance,
-            harmony and survival; a kingdom we enter to share in the wonder,
-            gaze at the beauty, thrill at the drama, and learn." —
-            <b>
-              Michael D. Eisner, April 22, 1998 Walt Disney World's fourth and
-              newest theme park opened in April 1998
-            </b>{" "}
-            , joining the Magic Kingdom, Epcot, and Disney-MGM Studios. When it
-            opened, park advertising used the faux-African word "nahtazu" ("not
-            a zoo") as a slogan to emphasize that it was not just a collection
-            of animals in small iron cages. The animals here spend their days in
-            expansive habitats that are as close to their natural environments
-            as possible, with subtle and camouflaged barriers keeping them away
-            from guests (and each other). At night, they sleep comfortably
-            indoors in the park's extensive housing area backstage. Although the
-            animals are nominally the main attraction, the park has slowly
-            expanded its ride offerings, allowing the park to stay open later
-            after the animals are put to bed. The marquee attraction from that
-            perspective is the wild roller
+            <p style={{ textAlign: "justify" }}>
+              Welcome to a kingdom of animals, real, ancient and imagined: a
+              kingdom ruled by lions, dinosaurs and dragons; a kingdom of
+              balance, harmony and survival; a kingdom we enter to share in the
+              wonder, gaze at the beauty, thrill at the drama, and learn." —
+              <b>
+                Michael D. Eisner, April 22, 1998 Walt Disney World's fourth and
+                newest theme park opened in April 1998
+              </b>
+              , joining the Magic Kingdom, Epcot, and Disney-MGM Studios. When
+              it opened, park advertising used the faux-African word "nahtazu"
+              ("not a zoo") as a slogan to emphasize that it was not just a
+              collection of animals in small iron cages. The animals here spend
+              their days in expansive habitats that are as close to their
+              natural environments as possible, with subtle and camouflaged
+              barriers keeping them away from guests (and each other). At night,
+              they sleep comfortably indoors in the park's extensive housing
+              area backstage. Although the animals are nominally the main
+              attraction, the park has slowly expanded its ride offerings,
+              allowing the park to stay open later after the animals are put to
+              bed. The marquee attraction from that perspective is the wild
+              roller
+            </p>
           </Col>
         </Row>
         <Row style={{ marginTop: "50px" }}>
@@ -158,25 +162,27 @@ export default function About() {
             </Card>
           </Col>
           <Col md={8}>
-            <h1>Muhammad Haseeb ullah</h1>
-            "-------Welcome to a kingdom of animals, real, ancient and imagined:
-            a kingdom ruled by lions, dinosaurs and dragons; a kingdom of
-            balance, harmony and survival; a kingdom we enter to share in the
-            wonder, gaze at the beauty, thrill at the drama, and learn." —
-            Michael D. Eisner, April 22, 1998 Walt Disney World's fourth and
-            newest theme park opened in April 1998, joining the Magic Kingdom,
-            Epcot, and Disney-MGM Studios. When it opened, park advertising used
-            the faux-African word "nahtazu" ("not a zoo") as a slogan to
-            emphasize that it was not just a collection of animals in small iron
-            cages. The animals here spend their days in expansive habitats that
-            are as close to their natural environments as possible, with subtle
-            and camouflaged barriers keeping them away from guests (and each
-            other). At night, they sleep comfortably indoors in the park's
-            extensive housing area backstage. Although the animals are nominally
-            the main attraction, the park has slowly expanded its ride
-            offerings, allowing the park to stay open later after the animals
-            are put to bed. The marquee attraction from that perspective is the
-            wild roller
+            <h1>Abdul Haseeb Khan</h1>
+            <p style={{ textAlign: "justify" }}>
+              "-------Welcome to a kingdom of animals, real, ancient and
+              imagined: a kingdom ruled by lions, dinosaurs and dragons; a
+              kingdom of balance, harmony and survival; a kingdom we enter to
+              share in the wonder, gaze at the beauty, thrill at the drama, and
+              learn." — Michael D. Eisner, April 22, 1998 Walt Disney World's
+              fourth and newest theme park opened in April 1998, joining the
+              Magic Kingdom, Epcot, and Disney-MGM Studios. When it opened, park
+              advertising used the faux-African word "nahtazu" ("not a zoo") as
+              a slogan to emphasize that it was not just a collection of animals
+              in small iron cages. The animals here spend their days in
+              expansive habitats that are as close to their natural environments
+              as possible, with subtle and camouflaged barriers keeping them
+              away from guests (and each other). At night, they sleep
+              comfortably indoors in the park's extensive housing area
+              backstage. Although the animals are nominally the main attraction,
+              the park has slowly expanded its ride offerings, allowing the park
+              to stay open later after the animals are put to bed. The marquee
+              attraction from that perspective is the wild roller
+            </p>
           </Col>
         </Row>
         <Row style={{ marginTop: "50px" }}>
@@ -187,38 +193,30 @@ export default function About() {
                 style={{ maxHeight: "380px", borderRadius: "50%" }}
                 src="kamranimage.jpeg"
               />
-              {/* <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer> */}
             </Card>
           </Col>
           <Col md={8}>
             <h1>Muhammad kamran</h1>
-            "-------Welcome to a kingdom of animals, real, ancient and imagined:
-            a kingdom ruled by lions, dinosaurs and dragons; a kingdom of
-            balance, harmony and survival; a kingdom we enter to share in the
-            wonder, gaze at the beauty, thrill at the drama, and learn." —
-            Michael D. Eisner, April 22, 1998 Walt Disney World's fourth and
-            newest theme park opened in April 1998, joining the Magic Kingdom,
-            Epcot, and Disney-MGM Studios. When it opened, park advertising used
-            the faux-African word "nahtazu" ("not a zoo") as a slogan to
-            emphasize that it was not just a collection of animals in small iron
-            cages. The animals here spend their days in expansive habitats that
-            are as close to their natural environments as possible, with subtle
-            and camouflaged barriers keeping them away from guests (and each
-            other). At night, they sleep comfortably indoors in the park's
-            extensive housing area backstage. Although the animals are nominally
-            the main attraction, the park has slowly expanded its ride
-            offerings, allowing the park to stay open later after the animals
-            are put to bed. The marquee attraction from that perspective is the
-            wild roller
+            <p style={{ textAlign: "justify" }}>
+              "-------Welcome to a kingdom of animals, real, ancient and
+              imagined: a kingdom ruled by lions, dinosaurs and dragons; a
+              kingdom of balance, harmony and survival; a kingdom we enter to
+              share in the wonder, gaze at the beauty, thrill at the drama, and
+              learn." — Michael D. Eisner, April 22, 1998 Walt Disney World's
+              fourth and newest theme park opened in April 1998, joining the
+              Magic Kingdom, Epcot, and Disney-MGM Studios. When it opened, park
+              advertising used the faux-African word "nahtazu" ("not a zoo") as
+              a slogan to emphasize that it was not just a collection of animals
+              in small iron cages. The animals here spend their days in
+              expansive habitats that are as close to their natural environments
+              as possible, with subtle and camouflaged barriers keeping them
+              away from guests (and each other). At night, they sleep
+              comfortably indoors in the park's extensive housing area
+              backstage. Although the animals are nominally the main attraction,
+              the park has slowly expanded its ride offerings, allowing the park
+              to stay open later after the animals are put to bed. The marquee
+              attraction from that perspective is the wild roller
+            </p>
           </Col>
         </Row>
         <Row style={{ marginTop: "50px" }}>
@@ -229,42 +227,34 @@ export default function About() {
                 style={{ maxHeight: "380px", borderRadius: "50%" }}
                 src="ahitshamimage.jpeg"
               />
-              {/* <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content.
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer> */}
             </Card>
           </Col>
           <Col md={8}>
-            <h1>Muhammad Ahitsham </h1>
-            WELCOME!!!! Thank you for taking the time to view my site. I have
-            been a fanatical collector of European Medieval and Renaissance Arms
-            and Armor for 37 years. If you are a beginner or advanced master
-            collector with 50-plus years of experience, you have come to the
-            right place. "-------Welcome to a kingdom of animals, real, ancient
-            and imagined: a kingdom ruled by lions, dinosaurs and dragons; a
-            kingdom of balance, harmony and survival; a kingdom we enter to
-            share in the wonder, gaze at the beauty, thrill at the drama, and
-            learn." — Michael D. Eisner, April 22, 1998 Walt Disney World's
-            fourth and newest theme park opened in April 1998, joining the Magic
-            Kingdom, Epcot, and Disney-MGM Studios. When it opened, park
-            advertising used the faux-African word "nahtazu" ("not a zoo") as a
-            slogan to emphasize that it was not just a collection of animals in
-            small iron cages. The animals here spend their days in expansive
-            habitats that are as close to their natural environments as
-            possible, with subtle and camouflaged barriers keeping them away
-            from guests (and each other). At night, they sleep comfortably
-            indoors in the park's extensive housing area backstage. Although the
-            animals are nominally the main attraction, the park has slowly
-            expanded its ride offerings, allowing the park to stay open later
-            after the animals are put to bed. The marquee attraction from that
-            perspective is the wild roller
+            <h1>Ahtisham Ali</h1>
+            <p style={{ textAlign: "justify" }}>
+              WELCOME!!!! Thank you for taking the time to view my site. I have
+              been a fanatical collector of European Medieval and Renaissance
+              Arms and Armor for 37 years. If you are a beginner or advanced
+              master collector with 50-plus years of experience, you have come
+              to the right place. "-------Welcome to a kingdom of animals, real,
+              ancient and imagined: a kingdom ruled by lions, dinosaurs and
+              dragons; a kingdom of balance, harmony and survival; a kingdom we
+              enter to share in the wonder, gaze at the beauty, thrill at the
+              drama, and learn." — Michael D. Eisner, April 22, 1998 Walt Disney
+              World's fourth and newest theme park opened in April 1998, joining
+              the Magic Kingdom, Epcot, and Disney-MGM Studios. When it opened,
+              park advertising used the faux-African word "nahtazu" ("not a
+              zoo") as a slogan to emphasize that it was not just a collection
+              of animals in small iron cages. The animals here spend their days
+              in expansive habitats that are as close to their natural
+              environments as possible, with subtle and camouflaged barriers
+              keeping them away from guests (and each other). At night, they
+              sleep comfortably indoors in the park's extensive housing area
+              backstage. Although the animals are nominally the main attraction,
+              the park has slowly expanded its ride offerings, allowing the park
+              to stay open later after the animals are put to bed. The marquee
+              attraction from that perspective is the wild roller
+            </p>
           </Col>
         </Row>
         {/* <h1 style={{marginTop: '50px'}}>Explanation</h1>

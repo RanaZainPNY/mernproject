@@ -18,7 +18,9 @@ const FlashDeals = () => {
     <>
       <div className="mid">
         <h1>Flash Deals</h1>
-        <Carousel showDots={true} responsive={responsive}>{product}</Carousel>
+        <Carousel showDots={false} responsive={responsive}>
+          {product}
+        </Carousel>
       </div>
     </>
   );
