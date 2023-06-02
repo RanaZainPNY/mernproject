@@ -1,4 +1,5 @@
 import React from "react";
+import ProductForm from "../Addproduct/Addproduct";
 
 const Home = () => {
   return (
@@ -52,7 +53,6 @@ const Home = () => {
                 </li>
               </ul>
               <hr />
-              
 
               <div class="dropdown">
                 <a
@@ -103,22 +103,7 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-9">
-            <table>
-              <thead>
-                <tr>
-                  <th>Id</th>
-                  <th>Name</th>
-                  <th>Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>biscuit</td>
-                  <td>33</td>
-                </tr>
-              </tbody>
-            </table>
+            <ProductForm />
           </div>
         </div>
       </div>

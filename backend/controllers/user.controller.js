@@ -17,6 +17,7 @@ userRouter.post("/create", async (req, res) => {
     res.status(500).send("Error In creatting new user");
   }
 });
+
 userRouter.get("/:id", async (req, res) => {
   // console.log(req.params.id)
 });
