@@ -79,6 +79,9 @@ const ProductForm = () => {
           </button>
         </Form>
       </Formik>
+
+      <hr/>
+            
     </div>
   );
 };

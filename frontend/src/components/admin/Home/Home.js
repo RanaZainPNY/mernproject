@@ -1,5 +1,6 @@
 import React from "react";
 import ProductForm from "../Addproduct/Addproduct";
+import Producttable from "../ProductTable/Producttable";
 
 const Home = () => {
   return (
@@ -104,6 +105,7 @@ const Home = () => {
           </div>
           <div className="col-md-9">
             <ProductForm />
+            <Producttable/>
           </div>
         </div>
       </div>
